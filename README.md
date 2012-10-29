@@ -1,6 +1,6 @@
 # Google::Analytics::Turbolinks
 
-**use with Rails and Assest Pipeline**
+**use with Rails and Asset Pipeline**
 
 This gem adds support for Google Analytics to use with Rails Turbolinks, this gem is inspired with turbolinks-analytics gem which seems to been removed from github.
 
