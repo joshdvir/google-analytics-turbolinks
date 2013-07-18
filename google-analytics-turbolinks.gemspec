@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{This gem adds support for Google Analytics to use with Rails Turbolinks, this gem is inspired with turbolinks-analytics gem which seems to been removed from github}
   gem.summary       = %q{This gem adds support for Google Analytics to use with Rails Turbolinks}
   gem.homepage      = "https://github.com/shukydvir/google-analytics-turbolinks.git"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
