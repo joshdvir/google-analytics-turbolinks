@@ -1,4 +1,4 @@
-[![Stories in Ready](http://badge.waffle.io/shukydvir/google-analytics-turbolinks.png)](http://waffle.io/shukydvir/google-analytics-turbolinks)  
+[![Stories in Ready](https://badge.waffle.io/shukydvir/google-analytics-turbolinks.png)](http://waffle.io/shukydvir/google-analytics-turbolinks)  
 # Google::Analytics::Turbolinks
 
 **use with Rails and Asset Pipeline**
