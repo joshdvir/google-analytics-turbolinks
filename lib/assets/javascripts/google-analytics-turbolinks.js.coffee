@@ -3,8 +3,13 @@ if window.history?.pushState and window.history.replaceState
 
     # Google Analytics
     if window.ga != undefined
-      ga('set', 'location', location.href.split('#')[0])
-      ga('send', 'pageview')
+      ga (tracker) ->
+        turbolinked = tracker.get('turbolink?') || false
+        unless turbolinked
+          ga 'set', 'turbolink?', true
+        else
+          ga 'set', 'location', location.href.split(/#/)[0]
+          ga 'send', 'pageview'
     else if window._gaq != undefined
       _gaq.push(['_trackPageview'])
     else if window.pageTracker != undefined
