@@ -1,5 +1,6 @@
-if window.history?.pushState and window.history.replaceState
-  document.addEventListener 'page:change', (event) =>
+if typeof Turbolinks != 'undefined' && Turbolinks.supported
+  eventName = if typeof Turbolinks.controller != 'undefined' then 'turbolinks:load' else 'page:change'
+  document.addEventListener eventName, (event) =>
 
     # Google Analytics
     if window.ga != undefined
