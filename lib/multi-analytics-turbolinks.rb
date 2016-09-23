@@ -1,6 +1,6 @@
 require "google-analytics-turbolinks/version"
 
-module Google::Analytics::Turbolinks
+module Multi::Analytics::Turbolinks
   class Engine < ::Rails::Engine
   end
 end
