@@ -1,7 +1,7 @@
-module Google
+module Multi 
   module Analytics
     module Turbolinks
-      VERSION = "0.0.5"
+      VERSION = "0.0.6"
     end
   end
 end
